@@ -11,7 +11,7 @@ build:
     image_template: vault-1.16
 
 deploy:
-    context: krishna/DEV
+    context: krishna-ullas/DEV
     type: statefulset
     ingress: none
     replicas: 1
