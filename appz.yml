@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: vault-1.2
+    image_template: vault-1.19
 
 deploy:
     context: krishna-ullas/DEV
@@ -30,6 +30,6 @@ volumes:
     size: 5Gi
 
 properties:
-    revision: 70
+    revision: 1
     ENABLE_AUTO_PASSWORD: True
     
