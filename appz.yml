@@ -23,11 +23,11 @@ volumes:
   - claim: vault-home
     mount: /appz/home
     name: home
-    size: 5Gi
+    size: 2Gi
   - claim: vault-data
     mount: /appz/data
     name: data
-    size: 5Gi
+    size: 2Gi
 
 properties:
     revision: 1
